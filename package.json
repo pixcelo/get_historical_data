@@ -1,0 +1,26 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "``` python3 ***.py ```",
+  "main": "importer/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node importer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixcelo/get_historical_data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixcelo/get_historical_data/issues"
+  },
+  "homepage": "https://github.com/pixcelo/get_historical_data#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "redis": "^4.3.1"
+  }
+}
