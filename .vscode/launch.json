@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/importer/index.js"
+            "program": "${workspaceFolder}/downloader/historical_data_from_cryptowatch.js"
         }
     ]
 }
